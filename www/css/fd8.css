@@ -1,0 +1,83 @@
+/** Basic CSS Reset **/
+* { -webkit-box-sizing: border-box; -moz-box-sizing: border-box; box-sizing: border-box; }
+
+body {
+font-family:Arial;
+}
+
+ul {
+  margin:0;
+  padding:0;
+}
+li {
+  list-style:none;
+}
+
+div.goalContainer {
+  margin-bottom:12px;
+}
+
+/**
+#StartGame {
+  background: black;
+  color:#fff;
+  display:inline-block;
+  padding:8px 12px 9px;
+  border-radius:2px;
+  border-right:1px solid #222;
+  border-bottom:1px solid #222;
+  margin-bottom:12px;
+  font-size:13px;
+  text-decoration:none;
+}
+**/
+#SequenceContainer {
+  overflow:hidden;
+  border:1px solid #EEE;
+  border-radius:4px;
+  width:250px;
+  height:250px;
+  box-shadow:0 0 4px #CCC;
+}
+
+#SequenceContainer li {
+  width:50%;
+  height:50%;
+  display:block;
+  float:left;
+
+
+}
+
+#SequenceContainer li a {
+  display:block;
+  opacity:0.5;
+  text-align:center;
+  color:#fff;
+  font-family:Arial;
+  height:100%;
+  width:100%;
+  text-decoration:none;
+  padding-top:45%;
+}
+
+#SequenceContainer li a:hover {
+    cursor:pointer;  
+}
+#SequenceContainer li a:active,
+#SequenceContainer li.active a {
+    opacity:1;
+}
+
+#box1 a {
+  background:red;
+}
+#box2 a{
+  background:green;
+}
+#box3 a {
+  background:blue;
+}
+#box4 a {
+  background:yellow;
+}

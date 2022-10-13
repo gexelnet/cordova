@@ -1,0 +1,38 @@
+.centerQuestions {
+
+    margin: auto;
+    width: 300px;
+    padding: 10px;
+
+    /* The CSS below stops users from being able to select text. */
+    -webkit-user-select: none; /* Safari */        
+    -moz-user-select: none; /* Firefox */
+    -ms-user-select: none; /* IE10+/Edge */
+    user-select: none; /* Standard */
+
+}
+
+.styleButton {
+
+    /* remove default behavior */
+    appearance:none;
+    -webkit-appearance:none;
+
+    /* usual styles */
+    padding:10px;
+    border:none;
+    background-color:black;
+    color:#fff;
+    font-weight:600;
+    width:150px;
+
+    /* Center button. */
+    text-align: center;
+    display: block;
+    margin: 20px auto; /* will add 20px of space around the button */
+
+}
+
+ input[type='radio'] { 
+     transform: scale(2); 
+ }

@@ -11,40 +11,44 @@
             * Disables use of inline scripts in order to mitigate risk of XSS vulnerabilities. To change this:
                 * Enable inline JS: add 'unsafe-inline' to default-src
         -->
-        <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self';">
+<meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self';">
         <meta name="format-detection" content="telephone=no">
         <meta name="msapplication-tap-highlight" content="no">
         <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
         <meta name="color-scheme" content="light dark">
         <meta name="description" content="Story/audio book with video games and activities."/>
-        <meta name="keywords" content="Story, Stories, audio, book, children, kids, child, kid, free, games, quiz, rock, paper, scissors, memory, game, simon, says, tic, tac, toe, tic-tac-toe, fruits, maze, mazes, bedtime">
+        <meta name="keywords" content="Story, Stories, audio, book, children, child, kid, kids, free, games, quiz, rock, paper, scissors, memory, game, simon, says, tic, tac, toe, tic-tac-toe, fruits, maze, mazes, bedtime">
         <meta name="author" content="Solon Papageorgiou">
         <meta name="robots" content="follow"/>
 <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
 <meta http-equiv="Pragma" content="no-cache">
 <meta http-equiv="Expires" content="0">
         <link rel="stylesheet" href="css/fd.css">
+        <link rel="stylesheet" href="css/fd2.css">
+        <link rel="stylesheet" href="css/fd10.css">
         <title>Fascinating Dreams 1: The Crystal Cave</title>
     </head>
     <body>
 
-        <div class="centerMe text">
-            
-            <p>
-                <iframe src="index-for-iframe.html?v=2" title="Text" frameBorder="0"></iframe>
-            </p>
-
+<div class="centerQuestions">
+    <h1 align="center">Tic-tac-toe</h1>
+ 
+            <div id="tictactoe" align="center"></div>
+        <div align="center">
+            <!-- <span id='turn'>Turn of Player X</span> -->
         </div>
-
-        <p>           
-            <span class="centerbtn link">
-                <a href="fd1.html" class="blackbtn" title="Start">Start</a>
+        <p><input type="submit" value="Restart" id="restart" class="styleButton"></p>    
+</div>
+        <p>
+            <span class="centerbtn">
+                <a href="fd9.html" class="blackbtn" title="Previous">Previous</a>
+                <a href="fd11.html" class="blackbtn" title="Next">Next</a>
             </span>
         </p>
-
-        <script src="cordova.js"></script>
+        
+        <script src="cordova.js"></script>        
+        <script src="js/fd10.js?v=1"></script>
         <script src="js/jquery-3.6.0.min.js"></script>
-        <script src="js/fade.js?v=2"></script>
-
+        
     </body>
 </html>

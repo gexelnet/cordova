@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+}
+.main {
+    width: 250px;
+    margin: 30px auto;
+    background-color: #d6d0d0;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 10px;
+    font-family: tahoma;
+}
+div {
+    border-radius: 5px;
+    width: 23%;
+    height: 50px;
+    background-color: #0ca01a;
+    float: left;
+    margin: 1%;
+    cursor: pointer;
+    transition: background-color .1s ease-in-out;
+}
+div:hover {
+    background-color: #066910;
+}
+h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 25px;
+    margin: 0;
+    opacity: 0;
+    transition: opacity .5s ease-in-out;
+}
