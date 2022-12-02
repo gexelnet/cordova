@@ -1,4 +1,5 @@
-﻿This is an example of how to create a Cordova application.
+﻿This is an example of how to build an Android mobile application using Web technologies with Cordova.
+Code with HTML, CSS and JavaScript and create your Android app. This is a complete template to code a Cordova application.
 
 Please note that the code, content and assets are copyrighted material of Solon Papageorgiou.
 
