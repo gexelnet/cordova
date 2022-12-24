@@ -3,7 +3,13 @@ Code with HTML, CSS and JavaScript and create your Android app. This is a comple
 
 Please note that the code, content and assets are copyrighted material of Solon Papageorgiou.
 
-However, feel free to study the code and create your own Cordova application.
+However, feel free to study the code, modify it and create your own Cordova application,
+provided that you want to use it for non-commercial purposes. For such purposes the 
+product is free.
+
+If you want to use the product for commercial purposes email me at info@gexl.eu
+to obtain the appropriate licence. The price for the commercial licence is currently
+set to €10. 
 
 Note that the code of the minigames is provided under the MIT license.
 
